@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/field"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:id="@+id/ly_goal_keeper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btGoalKeeper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" >
+            <requestFocus />
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_defence"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btFirstDefender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btSecondDefender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btThirdDefender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btFourthdDefender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_weight="1"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_midfield"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btFirstMidlfielder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btSecondMidlfielder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btThirdMidlfielder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_offence"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btFirstoffender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btSecondoffender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:layout_gravity="center|bottom"
+            android:layout_weight="1"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+
+         <Button android:onClick="editPlayer"
+            android:id="@+id/btThirdoffender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Lam"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+          android:gravity="center_vertical|right"
+        android:orientation="horizontal" >
+
+         <Button 
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_next"
+            android:onClick="enter" />
+
+    </LinearLayout>
+
+</LinearLayout>

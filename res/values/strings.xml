@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Commons compenents -->
+    <string name="btn_save"> Save </string>
+    <string name="btn_cancel"> Cancel </string>
+    <string name="app_name">Football stick manager</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- first Activity -->
+    <string name="welcome_message">Welcome !\nPlease choose a name for your team </string>
+    <string name="btn_next"> NEXT </string>
+    <string name="title_activity_team_members">TEAM PLAYERS</string>
+    <string name="title_activity_member_editor_dialog">EDIT INFORMATION</string>
+
+    <!-- member editor dialog -->
+    <string name="tv_name"> Name </string>
+    <string name="tv_power"> Power </string>
+    <string name="message_remaining_power">You still have</string>
+    <string name="power_uni">coin</string>
+<!--     Main activity -->
+    <string name="title_activity_main">Football stick manager</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
